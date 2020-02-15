@@ -11,4 +11,42 @@ function sumirFoto(el) {
     }
 }
 
+    let mensagemHora = document.getElementById('msg')
+    let data = new Date()
+    let hora = data.getHours()
+    let min = data.getMinutes()
+    let dia = data.getHours() 
+    let mensagem    
+    
+
+    if (hora >= 5 && hora < 12){
+        mensagem = 'Bom dia'        
+    }
+
+    else if (hora >= 12 && hora < 18){        
+        mensagem = 'Boa tarde'                
+    }
+
+    else{       
+        mensagem = 'Boa noite'
+    }
+
+    mensagemHora.innerHTML = `Hoje é dia ${dia}<br> São ${hora}:${min} <br> ${mensagem}`
+
+  
+     
+    
+    
+    
+    
+    
+
+
+
+
+         
+    
+    
+    
+
 
