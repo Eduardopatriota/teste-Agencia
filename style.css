@@ -153,28 +153,31 @@ footer{
     .imagemGrande {
         margin: auto;        
     } 
-    
+
     .imagemGrande img{
         width: 700px;
     }
+
     .flex{
         display:flex;
         flex-wrap: wrap;
-        
-    }  
-    footer{
-        height: 180px;
-        
-    } 
-    .itensRodape{
-        font-size: 16px;
     }
-    .rodape{ /*container*/
-               
+
+    footer{
+        height: 250px;
+    }
+
+    .itensRodape{
+        
+    }
+
+    .rodape{ /*container*/               
         padding: 20px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+                
     }
+
     .menu li{
         font-size: 25px;
     }
@@ -182,6 +185,7 @@ footer{
     button {
         font-size: 25px;
     }
+
     button a{
         color: white;
         font-size: 25px;
