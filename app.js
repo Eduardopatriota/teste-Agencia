@@ -1,3 +1,5 @@
+
+
 var nome = 1;
 function sumirFoto(el) {
     
@@ -15,15 +17,16 @@ function sumirFoto(el) {
     let data = new Date()
     let hora = data.getHours()
     let min = data.getMinutes()
-    let dia = data.getHours() 
+    let dia = data.getDate() 
     let mensagem    
     
 
     if (hora >= 5 && hora < 12){
-        mensagem = 'Bom dia'        
+        mensagem = 'Bom dia' 
+              
     }
 
-    else if (hora >= 12 && hora < 18){        
+    else if (hora >= 10 && hora < 18){        
         mensagem = 'Boa tarde'                
     }
 
@@ -32,6 +35,8 @@ function sumirFoto(el) {
     }
 
     mensagemHora.innerHTML = `Hoje é dia ${dia}<br> São ${hora}:${min} <br> ${mensagem}`
+
+    
 
   
      
