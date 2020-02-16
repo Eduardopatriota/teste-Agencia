@@ -26,6 +26,7 @@ a{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    
         
 }
 .banner img{
@@ -34,10 +35,12 @@ a{
 }
 .menu{
     display:flex;
+    
     }
 
 .menu li{
     margin-left: 10px;
+    font-size: 16px;
 }
 
 .menu li a{
@@ -146,9 +149,13 @@ footer{
     .grid2{
         grid-template-columns: repeat(1, 1fr);
         }
-    .imagemGrande{
-        margin: auto;
+    .imagemGrande {
+        margin: auto;        
     } 
+    
+    .imagemGrande img{
+        width: 700px;
+    }
     .flex{
         display:flex;
         flex-wrap: wrap;
@@ -159,7 +166,7 @@ footer{
         
     } 
     .itensRodape{
-        font-size: 1.1em;
+        font-size: 16px;
     }
     .rodape{ /*container*/
                
