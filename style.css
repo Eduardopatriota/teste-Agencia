@@ -168,7 +168,7 @@ footer{
     }
 
     .itensRodape{
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .rodape{ /*container*/               
@@ -179,16 +179,16 @@ footer{
     }
 
     .menu li{
-        font-size: 25px;
+        font-size: 28px;
     }
 
     button {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     button a{
         color: white;
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
