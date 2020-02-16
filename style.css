@@ -176,7 +176,15 @@ footer{
         flex-direction: column;        
     }
     .menu li{
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+    button a{
+        color: white;
+        font-size: 25px;
     }
 }
 
